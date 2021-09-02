@@ -55,10 +55,5 @@ client.on("interactionCreate", async (interaction) => {
   }
 });
 
-client.on("voiceStateUpdate", async (...args) => {
-  // console.log(oldMember, newMember);
-  console.log(args);
-});
-
 client.login(process.env.TOKEN);
 module.exports = client;

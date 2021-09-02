@@ -6,6 +6,7 @@ const fs = require("fs");
  * @returns {Object}
  */
 function getGuildConfig(guildId) {
+  if (!fs.existsSync(`./guilds/${guildId}.json`)) return undefined;
   let file = fs.readFileSync(`./guilds/${guildId}.json`, "utf-8");
   let config = JSON.parse(file);
   return config;
