@@ -5,6 +5,5 @@ module.exports = {
   once: false,
   execute(oldState, newState) {
     console.log(oldState, newState);
-    console.log("test");
   },
 };
