@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "@types/node": "^16.7.10",
+    "concurrently": "^6.2.1",
+    "cross-env": "^7.0.3",
+    "discord-api-types": "^0.22.0",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "dev": "nodemon -q index.js",
+    "start": "node index.js"
+  },
+  "license": "MIT"
+}
