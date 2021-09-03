@@ -11,7 +11,7 @@
     "nodemon": "^2.0.12"
   },
   "scripts": {
-    "dev": "nodemon -q index.js",
+    "dev": "nodemon index.js --ignore ./guilds/**",
     "start": "node index.js"
   },
   "license": "MIT"
